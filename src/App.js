@@ -1,7 +1,13 @@
+import React from 'react';
+import "./App.css"
+import CountryData from './Components/Country/CountryData'
 
-import Countries from "./countries";
-// import './App.css';
-
-export default function App() {
-  return <Countries />;
+function App() {
+  return (
+    <div className='app'>
+      <CountryData/>
+    </div>
+  )
 }
+
+export default App
