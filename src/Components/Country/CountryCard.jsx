@@ -5,8 +5,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 function CountryCards({ cards }) {
+ 
+  
+
   return (
     <div>
+     
       <Container>
         <Row>
           {cards.map((ele, index) => (
